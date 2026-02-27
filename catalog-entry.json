@@ -1,0 +1,15 @@
+{
+  "id": "jira",
+  "name": "Jira Integration",
+  "version": "1.0.0",
+  "description": "Create Jira tickets from spec tasks and scope implementation to individual tickets",
+  "author": "Vianca Martinez",
+  "repository": "https://github.com/imviancagrace/speckit-jira",
+  "license": "MIT",
+  "tags": ["jira", "atlassian", "project-management", "issue-tracking"],
+  "speckit_version": ">=0.1.0",
+  "install": {
+    "type": "zip",
+    "url": "https://github.com/imviancagrace/speckit-jira/archive/refs/tags/v1.0.0.zip"
+  }
+}

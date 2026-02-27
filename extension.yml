@@ -1,0 +1,42 @@
+schema_version: "1.0"
+
+extension:
+  id: "jira"
+  name: "Jira Integration"
+  version: "1.0.0"
+  description: "Create Jira tickets from spec tasks and scope implementation to individual tickets"
+  author: "Vianca Martinez"
+  repository: "https://github.com/imviancagrace/speckit-jira"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.1.0"
+  tools:
+    - name: "Atlassian MCP"
+      required: true
+      version: ">=1.0.0"
+  commands:
+    - "speckit.tasks"
+    - "speckit.implement"
+
+provides:
+  commands:
+    - name: "speckit.jira.taskstotickets"
+      file: "commands/taskstotickets.md"
+      description: "Convert tasks into Jira tickets with phase-based grouping and persist a jira-map.md mapping"
+
+    - name: "speckit.jira.implement"
+      file: "commands/implement.md"
+      description: "Execute implementation scoped to a single Jira ticket's tasks using jira-map.md"
+
+hooks:
+  after_tasks:
+    command: "speckit.jira.taskstotickets"
+    optional: true
+    prompt: "Create Jira tickets for the generated tasks?"
+
+tags:
+  - "jira"
+  - "atlassian"
+  - "project-management"
+  - "issue-tracking"
