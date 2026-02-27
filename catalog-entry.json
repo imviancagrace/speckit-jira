@@ -4,8 +4,8 @@
   "description": "Create Jira tickets from spec tasks and scope implementation to individual tickets",
   "author": "Vianca Martinez",
   "version": "1.0.0",
-  "download_url": "https://github.com/imviancagrace/speckit-jira/archive/refs/tags/v1.0.0.zip",
-  "repository": "https://github.com/imviancagrace/speckit-jira",
+  "download_url": "https://github.com/imviancagrace/spec-kit-jira/archive/refs/tags/v1.0.0.zip",
+  "repository": "https://github.com/imviancagrace/spec-kit-jira",
   "license": "MIT",
   "requires": {
     "speckit_version": ">=0.1.0"

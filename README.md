@@ -1,4 +1,4 @@
-# speckit-jira
+# spec-kit-jira
 
 A [Spec Kit](https://github.com/github/spec-kit) extension that integrates Jira into the spec-to-implementation workflow. Create Jira tickets from your spec tasks and scope implementation to individual tickets.
 
@@ -32,7 +32,7 @@ specify extension add jira
 Or install from the repository directly:
 
 ```bash
-specify extension add jira --from https://github.com/imviancagrace/speckit-jira/archive/refs/tags/v1.0.0.zip
+specify extension add jira --from https://github.com/imviancagrace/spec-kit-jira/archive/refs/tags/v1.0.0.zip
 ```
 
 After installation, verify:

@@ -6,7 +6,7 @@ extension:
   version: "1.0.0"
   description: "Create Jira tickets from spec tasks and scope implementation to individual tickets"
   author: "Vianca Martinez"
-  repository: "https://github.com/imviancagrace/speckit-jira"
+  repository: "https://github.com/imviancagrace/spec-kit-jira"
   license: "MIT"
 
 requires:
